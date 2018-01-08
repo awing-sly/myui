@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <per.awing.myui.launcher.LauncherContainerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/launcher_container"
+        />
+    <per.awing.myui.launcher.PageIndicatorView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/page_indicator"
+        android:layout_below="@id/launcher_container"
+        android:layout_alignStart="@id/launcher_container"
+        />
+</RelativeLayout>
